@@ -1,0 +1,25 @@
+{
+  "name": "api-teste",
+  "version": "1.0.0",
+  "description": "Teste se vai dar certo nesta api remoto",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assesci/api-teste.git"
+  },
+  "keywords": [],
+  "author": "Marcelo Del-Rei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Assesci/api-teste/issues"
+  },
+  "homepage": "https://github.com/Assesci/api-teste#readme"
+}

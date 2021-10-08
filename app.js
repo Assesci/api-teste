@@ -3,7 +3,7 @@ const app = express();
 
 const PORT  = process.env.PORT || 8877;
 
-app.get('/equips', (req, res) => {
+app.get('/produto', (req, res) => {
     res.json({
         cpu: 'AMD Ryzen 1700',
         gpu: 'Galax GTX 1070',
@@ -13,7 +13,7 @@ app.get('/equips', (req, res) => {
     })
 })
 
-app.get('/about', (req, res) => {
+app.get('/sobre', (req, res) => {
     res.json({
         name: 'Assesci',
         email: 'assesci@outlook.com',
